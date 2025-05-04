@@ -1,0 +1,40 @@
+# YouTube: Hide Watched Videos (Userscript)
+
+This userscript is designed for use with the **ViolentMonkey** extension on the **Brave** browser. It automatically hides both regular and Shorts videos on YouTube that have been watched more than **60%**, helping to keep your subscriptions and homepage cleaner and more relevant.
+
+## Features
+
+- Hides both watched videos and Shorts
+- Only hides videos watched more than 60% (can be adjusted directly in the script)
+- Remembers your selection across sessions (toggle persists until manually changed)
+- Clean and minimal interface near the microphone/search bar on YouTube
+
+## How to Use
+
+1. Install the [ViolentMonkey extension](https://violentmonkey.github.io/) on your Brave browser.
+2. Add this script via the ViolentMonkey dashboard.
+3. Visit YouTube and click the **"Watched"** button to hide watched videos.
+4. Toggle the button again to unhide.
+
+## Compatibility
+
+- ✅ Brave browser
+- ✅ YouTube (current as of script creation)
+- ⚠️ May break if YouTube changes its layout or class names
+
+## Troubleshooting
+
+If the script stops working:
+
+1. Copy the full script from this repository.
+2. Paste it into [ChatGPT](https://chat.openai.com/) or [Grok on X](https://x.ai/) and describe the issue.
+3. They'll help you update it based on the latest YouTube changes.
+
+## Credits
+
+- Script author: **Brett Crisp**
+- Contributions from: ChatGPT & Grok (AI assistance)
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) – Free to use, modify, and distribute. No warranties provided.
