@@ -21,6 +21,7 @@
     btn.textContent = hideWatched ? `${label} ❌` : label;
     btn.style.cssText = `
       margin-right: 8px;
+      margin-left: 8px;
       padding: 4px 8px;
       cursor: pointer;
       background: #fff;
